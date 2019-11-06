@@ -1,0 +1,130 @@
+10 30
+a b c d e f g h i j 
+b i
+h c
+i g
+i e
+f i
+a f
+b j
+c c
+j j
+c j
+h f
+f j
+c h
+f a
+b a
+i d
+d j
+c b
+a h
+a a
+h i
+a b
+h g
+i b
+a d
+f f
+h j
+b h
+a e
+i a
+20
+d i
+a i
+f i
+j f
+a f
+j b
+h b
+f i
+e a
+e e
+d h
+f g
+h j
+a g
+a c
+d e
+d h
+j e
+e g
+d c
+30
+c j
+c f
+f j
+d d
+e a
+j i
+b i
+a c
+g g
+j e
+a d
+f d
+e f
+e d
+j a
+g e
+d b
+h f
+f e
+c b
+d h
+j b
+c i
+j e
+j i
+c c
+c f
+g i
+b d
+a e
+15
+q h b 1
+c e j 2
+q a a 0
+c i a 2
+q j b 0
+q h c 2 e
+q i d 0
+q h h 2 i
+q g h 0
+q j d 2 g
+c c f 2
+q b f 0
+c f e 0
+q i j 1
+c f b 2
+27
+d walker_may f
+top_rides 3
+d dash_webster c
+r e j 1
+r c g 3
+d ethan_villa c
+b dash_webster
+r h h 5
+r a c 4
+r h i 4
+r e d 1
+top_dist 3
+top_rating 3
+r f c 3
+b walker_may
+top_dist 3
+r e i 1
+top_rides 3
+top_rides 2
+top_dist 3
+d trent_park c
+r c e 4
+b ethan_villa
+r d e 2
+top_dist 2
+r b b 1
+r g f 3
+4 trent_park
+5 a j j c g 

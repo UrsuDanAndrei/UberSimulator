@@ -1,0 +1,333 @@
+25 200
+a b c d e f g h i j k l m n o p q r s t u v w x y 
+p i
+a l
+g y
+d u
+v r
+b p
+j d
+d l
+a h
+s s
+o s
+s m
+v b
+k v
+n u
+j t
+t m
+c m
+b x
+w h
+u b
+n v
+n q
+b i
+q u
+b n
+w s
+p n
+t j
+o c
+i a
+x d
+e b
+i r
+a x
+r v
+o a
+d o
+j m
+c r
+b q
+p d
+i n
+o u
+h b
+x c
+j n
+q s
+f y
+a g
+p b
+j w
+u d
+p k
+o x
+v n
+k y
+j p
+w v
+h f
+g p
+f c
+x a
+h o
+v g
+b m
+o r
+d v
+r w
+s v
+x r
+v s
+b j
+e j
+o e
+w u
+y j
+r k
+c i
+n x
+l u
+n p
+a a
+l p
+i c
+o g
+j j
+t s
+h e
+h g
+g a
+m a
+y k
+s y
+y v
+v v
+e a
+a t
+l y
+t v
+v h
+s b
+n i
+x f
+k a
+x u
+c g
+u u
+e n
+h d
+d c
+m w
+n h
+p o
+k m
+d h
+e g
+y w
+e m
+f p
+g x
+h x
+i l
+h w
+g q
+c s
+g k
+w q
+d k
+m e
+d y
+x x
+p j
+l v
+g f
+m v
+m u
+w j
+f j
+k d
+m o
+j x
+g g
+p g
+g i
+t y
+s g
+b f
+f e
+s j
+o l
+p v
+x w
+s f
+d j
+o j
+q q
+n f
+k x
+l t
+m f
+m s
+v f
+m k
+u p
+v q
+u k
+o d
+s t
+j y
+d e
+n o
+r b
+k k
+t t
+h j
+u x
+m p
+b v
+a f
+o q
+e f
+i x
+h r
+l x
+y m
+h v
+i o
+g v
+k t
+j a
+e k
+o w
+c c
+t e
+b g
+s n
+a s
+r s
+u m
+15
+p t
+n y
+n m
+s j
+f x
+k s
+o d
+u n
+r a
+h f
+f c
+y v
+a h
+x u
+j r
+20
+l j
+s y
+k l
+w b
+j n
+l y
+d n
+b g
+u y
+j w
+v e
+h x
+t j
+o c
+a h
+l c
+i d
+i s
+s l
+p o
+50
+q g x 0
+q h k 0
+q o o 2 r
+c b c 3
+c n w 2
+q s b 0
+c x s 0
+c q e 1
+q a g 1
+q v t 1
+q k q 2 u
+c f q 3
+q n k 1
+c q o 2
+c q j 1
+q f y 0
+q a t 2 g
+q c w 1
+c k g 2
+q d q 2 r
+q e i 0
+c y c 2
+c b y 0
+c b b 3
+q h f 0
+q t i 1
+q i p 0
+q r x 1
+q b x 0
+c n f 2
+q t q 1
+c v r 1
+c r q 3
+q y n 1
+c m n 3
+q f w 0
+c v u 3
+q q m 1
+c v g 1
+q f a 1
+c s j 2
+c i y 1
+q d o 0
+c m c 0
+c m y 3
+q e n 0
+q g l 2 b
+q f b 2 s
+q s p 0
+c m v 2
+40
+top_rides 1
+d keagan_goodwin b
+d jaden_barnes p
+r r d 4
+r m s 4
+r d p 4
+r m m 5
+b keagan_goodwin
+r d j 5
+r x q 1
+top_rating 7
+top_rating 6
+d walker_may s
+top_rating 1
+top_rides 8
+top_dist 7
+r s c 5
+d louie_park g
+d keagan_goodwin r
+d dash_webster f
+top_rides 4
+r x a 3
+b louie_park
+r j y 3
+r x m 2
+b walker_may
+d ethan_villa y
+b dash_webster
+b ethan_villa
+top_dist 9
+top_rating 2
+top_dist 7
+r r o 5
+d ethan_villa u
+r i s 3
+r h k 3
+r f t 4
+r g t 2
+d walker_may s
+d dash_webster d
+10 dash_webster
+7 k b k a g h n 

@@ -1,0 +1,99 @@
+8 15
+Autogara Baneasa Gorjului Izvor Lujerului Unirii Victoriei Voluntari 
+Autogara Autogara
+Gorjului Voluntari
+Voluntari Baneasa
+Gorjului Victoriei
+Baneasa Lujerului
+Baneasa Voluntari
+Autogara Voluntari
+Baneasa Victoriei
+Baneasa Izvor
+Voluntari Gorjului
+Voluntari Izvor
+Autogara Gorjului
+Izvor Autogara
+Unirii Lujerului
+Izvor Izvor
+8
+Victoriei Autogara
+Autogara Autogara
+Voluntari Baneasa
+Voluntari Gorjului
+Izvor Autogara
+Victoriei Izvor
+Baneasa Izvor
+Victoriei Autogara
+8
+Izvor Victoriei
+Unirii Voluntari
+Lujerului Autogara
+Voluntari Autogara
+Izvor Unirii
+Baneasa Voluntari
+Autogara Voluntari
+Autogara Baneasa
+15
+q Voluntari Baneasa 1
+c Voluntari Victoriei 2
+q Izvor Voluntari 2 Voluntari
+c Autogara Voluntari 1
+q Voluntari Victoriei 0
+c Baneasa Izvor 1
+q Izvor Autogara 1
+c Autogara Lujerului 1
+q Victoriei Izvor 1
+q Victoriei Unirii 0
+q Victoriei Izvor 2 Baneasa
+q Lujerului Voluntari 1
+q Autogara Baneasa 2 Baneasa
+q Izvor Baneasa 0
+c Baneasa Unirii 0
+45
+r Unirii Gorjului 5
+top_rating 1
+top_rides 3
+d walker_may Victoriei
+b walker_may
+top_dist 3
+top_rides 1
+r Unirii Voluntari 4
+top_dist 2
+d walker_may Baneasa
+r Victoriei Voluntari 2
+top_rating 4
+top_rides 3
+r Voluntari Izvor 2
+d trent_park Gorjului
+top_dist 3
+r Victoriei Baneasa 5
+r Autogara Autogara 5
+r Baneasa Baneasa 4
+r Izvor Victoriei 2
+r Baneasa Voluntari 4
+r Unirii Lujerului 1
+r Victoriei Lujerului 5
+d dash_webster Izvor
+info trent_park
+info walker_may
+r Baneasa Victoriei 3
+top_rating 4
+r Victoriei Victoriei 5
+r Gorjului Baneasa 5
+top_dist 4
+r Lujerului Autogara 1
+r Autogara Baneasa 1
+r Voluntari Victoriei 4
+r Unirii Autogara 2
+top_dist 3
+top_rating 4
+r Autogara Autogara 1
+top_rating 1
+top_dist 1
+r Gorjului Izvor 5
+top_rating 4
+top_rating 4
+top_rating 4
+info walker_may
+3 dash_webster
+4 Izvor Gorjului Victoriei Victoriei 

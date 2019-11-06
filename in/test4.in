@@ -1,0 +1,161 @@
+17 70
+a b c d e f g h i j k l m n o p q 
+n j
+o i
+e e
+d j
+a p
+a c
+e o
+q h
+l d
+c e
+i k
+n e
+p p
+n f
+f o
+e j
+f h
+j k
+e i
+f k
+h c
+i o
+l g
+b e
+i i
+h q
+h f
+e b
+d f
+l h
+g n
+a k
+c o
+m b
+d c
+b q
+e q
+b g
+l f
+j n
+k c
+f f
+e f
+c c
+p l
+c n
+j j
+g m
+c k
+g d
+c g
+l n
+b i
+a d
+g j
+l e
+i a
+g o
+o g
+q b
+m e
+a j
+g q
+c l
+b o
+o a
+o k
+c h
+i n
+h j
+15
+o c
+l b
+c a
+k a
+l b
+l o
+a c
+c j
+l p
+l j
+o e
+b f
+q m
+b l
+b p
+15
+f g
+q a
+a h
+d b
+k k
+a n
+l o
+e g
+m d
+q l
+c f
+e g
+a m
+h d
+o g
+25
+q i b 2 c
+q b p 0
+c e l 1
+q g g 1
+c k c 3
+q e q 1
+c b p 0
+c p h 3
+q b c 1
+q b m 1
+c b f 3
+c l d 2
+q f g 2 m
+q a o 2 l
+q d m 1
+q g d 2 p
+q i f 2 f
+c o a 1
+q n k 0
+q j l 0
+c k a 2
+q n l 2 q
+c f l 0
+q o a 2 m
+c l h 2
+28
+d dash_webster a
+top_rating 3
+r g f 3
+r k k 5
+r i j 5
+top_rides 1
+top_dist 4
+d max_smith l
+info max_smith
+top_rides 5
+d luis_ayers p
+d ethan_villa f
+b ethan_villa
+b luis_ayers
+top_dist 5
+d trent_park n
+d ethan_villa o
+r k d 1
+info ethan_villa
+r h i 3
+top_rating 3
+r q a 3
+top_rides 1
+r p n 1
+r l j 1
+r d g 1
+info trent_park
+r h e 4
+7 max_smith
+17 o f i b h n l m m o n n j n d g i 

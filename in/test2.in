@@ -1,0 +1,68 @@
+10 14
+Aviatiei Bastion Crangasi Dorobanti Gara Militari Orhideea Tineretului Unirii Victoriei
+Orhideea Tineretului
+Orhideea Bastion
+Gara Gara
+Militari Gara
+Aviatiei Bastion
+Crangasi Orhideea
+Militari Victoriei
+Gara Dorobanti
+Gara Orhideea
+Gara Aviatiei
+Dorobanti Crangasi
+Dorobanti Unirii
+Tineretului Aviatiei
+Crangasi Aviatiei
+5
+Gara Tineretului
+Victoriei Aviatiei
+Tineretului Militari
+Orhideea Militari
+Dorobanti Orhideea
+6
+Unirii Orhideea
+Crangasi Gara
+Orhideea Unirii
+Dorobanti Dorobanti
+Militari Crangasi
+Victoriei Militari
+5
+c Gara Aviatiei 3
+q Orhideea Bastion 1
+q Unirii Gara 2 Bastion
+q Unirii Dorobanti 1
+q Unirii Dorobanti 1
+30
+r Crangasi Crangasi 3
+top_rating 1
+top_rides 2
+top_rides 3
+d trent_park Gara
+top_dist 3
+top_rides 5
+top_rides 2
+d ethan_villa Aviatiei
+r Unirii Militari 2
+r Unirii Aviatiei 1
+r Victoriei Bastion 5
+r Aviatiei Crangasi 5
+d luis_ayers Bastion
+b luis_ayers
+r Tineretului Orhideea 5
+r Militari Tineretului 5
+d walker_may Tineretului
+top_dist 4
+b trent_park
+top_rating 3
+r Crangasi Militari 2
+d luis_ayers Dorobanti
+top_rides 2
+info luis_ayers
+info walker_may
+info ethan_villa
+top_rides 5
+info walker_may
+top_rating 1
+4 walker_may
+6 Orhideea Militari Militari Tineretului Dorobanti Militari 

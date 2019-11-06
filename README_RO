@@ -1,0 +1,155 @@
+
+
+template <typename T> class Graph:
+
+In aceasta clasa creez prototipul unui graf
+atribute:
+
+--g: un vector ce retine pentru fiecare nod informatia din acesta si nodurile
+	vecine lui
+--index2data: un vector, index2data[i] = informatia din nodul cu indexul i
+--data2index: un hashTabel, data2index[info] = indexul nodului cu informatia
+info
+
+metode:
+
+--Graph(int (*hashNodes)(T)): constructor ce primeste ca parametru o functie de
+hash-ing necesara pentru initializarea hasTabel-ului data2index
+--void addNode(const T& data): adauga un nod in graf cu informatia data, se face
+perechea {data, nrNodes} care se adauga in data2index si se creste numarul de 
+noduri
+--void addEdge(const T& node1, const T& node2): se adauga muchia node1-node2 in
+graf astfel: se afla indexele pentru node1,2 si se pune indexul n2 in 
+lista de vecini ai lui n1 si se creste numarul de muchii
+--void removeEdge(const T& node1, const T& node2): sterge toate muchiile dintre
+node1 si node2 astfel: se afla indexele pentru node1,2, se parcurge lista lui n1
+si se sterg folosind functia erase toate indexurile n2
+--void reverseEdge(const T& node1, const T& node2): inverseaza sensul muchiei
+dintre node1 si node2 astfel: se verifica daca muchia exista sau este
+bidirectionala, cazuri in care nu se face nimic, apoi se sterge muchia initiala
+si se adauga cea noua
+--bool hasEdge(const T& node1, const T& node2): returneaza true daca exista
+muchie node1-node2 astfel: se afla indexele pentru node1,2 si se cauta in
+vecinii lui n1 pe n2
+--int getDist(const T& start, const T& end): returneaza distanta de la nodul
+start la nodul end astfel: face un bfs din nodul de start si marcheaza in cate
+muchii a ajuns la fiecare nod folosind vectorul dist, se opreste cand se gaseste
+nodul end
+--void getDistAll(const int& start, std::vector<int>& dist): asemanator cu
+metoda anterioara doar ca returneaza prin dist si vectorul de distante
+--void displayAllNeighbours(std::vector<T>& disp, const T& start, int maxEdges,
+const std::vector<T>& des, std::vector<int>& dist):
+returneaza prin disp destinatiile din vectorul des primit ca parametru la care
+se poate ajunge pornind din nodul start si mergand un numar de maxEdges.
+Se foloseste un bfs ca la funtiile anterioare.
+--std::vector<std::vector<int>> getMDist(): returneaza matricea de distante a 
+grafului folosind apeluri ale functiei getDistAll ce primeste ca nod de start,
+pe rand, toate nodurile grafului
+
+
+template <typename TKey, typename TValue> class Hash:
+
+In aceasta clasa se generaza un dictionar de la TKey la TValue
+atribute:
+
+--size: dimensiunea hashTabel-ului
+--hashTabel: un vector de liste care contin perechi de tip {key, value}, are 
+rolul de a gestiona coliziunile
+--hash: functia de hash-ing de la TKey la int
+
+metode:
+
+--Hash(int size, int (*hash)(TKey)): constructor, primeste o dimensiunea
+hashTabel-ului si functia de hash-ing
+--void addPair(const TKey& key, const TValue& val): adauga o pereche de tip
+{key, value} in hashTabel
+--void removeKey(const TKey& key): sterge o cheie din hashTabel
+--bool hasKey(const TKey& key): returneaza true daca cheia key exista, altfel
+returneaza false
+--TValue& operator[](const TKey& key): returneaza o referinta la valoarea care
+corespunde cheii key primite ca parametru
+
+
+class Driver:
+
+Aceasta clasa genereaza prototipul unui sofer
+atibure:
+
+--rating: suma ratingurilor pentru toate cursele efectuate
+--dist: distanta totala parcursa de sofer
+--rides: numarul de curse efectuate
+--status: offline / online
+--junction: intersectia la care se afla soferul
+--name: numele soferului
+--ratingAvg: rating-ul mediu al soferului
+
+metode:
+
+--Driver(std::string name, std::string junction): constructor, initializeaza
+numele soferului si intersectia in care acesta se afla
+--bool operator<(const Driver& other): stabileste o ordine intre soferi, cel mai
+mic sofer are rating-ul cel mai bun si numele cel mai mic lexicografic
+
+
+class solver:
+
+Aici este implementata logica problemei.
+
+--void readGraph(std::ifstream& fin): se citeste graful, adaugandu-se nodurile
+si muchiile acestuia
+--void task1_solver(std::ifstream& fin, std::ofstream& fout): se folosete metoda
+getDist din Graph pentru a verifica daca exista sau nu un drum de intre 2
+intersectii
+--void task2_solver(std::ifstream& fin, std::ofstream& fout): se folosete metoda
+getDist din Graph pentru a afisa distanta dintre 2 intersectii
+--void task3_solver(std::ifstream& fin, std::ofstream& fout): se face impartirea
+pe cazuri descrisa in enunt si se adauga/sterg/bidirectioneaza/inverseaza muchii
+si se afiseaza distanta dintre 2 intersectii, daca exista sau nu, sau distanta
+de dintre 2 intersectii trecand printr-o a treia
+--void task4_solver(std::ifstream& fin, std::ofstream& fout): se face impartirea
+pe cazuri descrisa in enunt si se adauga soferi noi/se schimba statusul unor
+soferi in offline/se cauta cel mai bun sofer pentru a efectua o cursa, iar daca
+nu exista un sofer care sa o poata efectua se afiseaza mesajul corespunzator/se
+incearca ajungerea la destinatie, iar daca nu este posibil la o intersectie
+adiacenta acesteia/se afiseaza topul soferilor dupa diverse criterii
+--void task5_solver(std::ifstream& fin, std::ofstream& fout): se folosete
+functia displayAllNeighbours din graph pentru a afla toate destinatiile la care
+se poate ajunge cu cantitatea de combustibil disponibila, dupa se sorteaza
+lexicografic cele care au distante egale fata de punctul de plecare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+8 11
+Berceni Chibrit Constitutiei Dorobanti Iancului Operei Romana Unirii
+Chibrit Berceni
+Berceni Romana
+Chibrit Romana
+Constitutiei Chibrit
+Constitutiei Dorobanti
+Iancului Romana
+Romana Iancului
+Operei Romana
+Iancului Operei
+Dorobanti Iancului
+Iancului Dorobanti
+3
+Berceni Constitutiei
+Operei Dorobanti
+Chibrit Operei
+3
+Chibrit Operei
+Romana Constitutiei
+Berceni Dorobanti
+10
+c Romana Iancului 1
+q Romana Dorobanti 0
+c Constitutiei Dorobanti 3
+q Iancului Constitutiei 1
+q Constitutiei Romana 2 Berceni
+c Constitutiei Romana 0
+c Operei Romana 2
+q Constitutiei Operei 1
+c Operei Iancului 2
+c Constitutiei Dorobanti 3
+16
+d Andrei Berceni
+d Bogdan Romana
+r Operei Dorobanti 4
+r Operei Iancului 4
+top_dist 6
+d Mihaita Berceni
+r Berceni Operei 3
+b Bogdan
+top_rating 2
+info Mihaita
+r Romana Constitutiei 5
+r Berceni Unirii 4
+r Constitutiei Romana 2
+d Bogdan Constitutiei
+r Constitutiei Iancului 5
+info Bogdan
+1 Bogdan
+6 Operei Iancului Operei Romana Dorobanti Chibrit
